@@ -1,222 +1,288 @@
 <html>
     <head>
-        <title>Me Bank loan application form</title>
-        <style>
-            BODY {
-                align-items: center;
-                width: 100%;
-                color: rgb(33, 63, 146);
-            }
-            .header {
-                display: flex;
-                justify-content: space-around;
-                position: relative;
-            }
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Me Bank loan application form</title>
+      <style>
+        html {
+          overflow-x: hidden;
+        }
+          body {
+              align-items: center;
+              width: 100%;
+              color: rgb(33, 63, 146);
+          }
+          .header {
+              display: flex;
+              justify-content: space-around;
+              position: relative;
+          }
 
-            .title {
-                padding-top: 20px;
-                width: 600px;
-                color: rgb(9, 9, 85);
-            }
-            h2 {
-                padding-left: 80px;
-            }
-            img {
-                height: 150px;
-            }
-            .sec-head {
-                background-color: rgb(9, 9, 85);
-                color: white;
-                line-height: 30px;
-                padding-left: 10px;
-            }
-            .subhead {
-                background-color: rgb(18, 18, 150);
-                color: white;
-                line-height: 25px;
-                padding-left: 20px;
-            }
-            .sections {
-                padding: 40px;
-            }
-            .content {
-                padding: 7px;
-            }
-            .section1 {
-                border: 1px solid rgb(9, 9, 85);
-            }
-            .section2 {
-                border: 1px solid rgb(9, 9, 85);
-            }
-            .apptype1 {
-                display: flex;
-                justify-content: space-around;
-            }
-            .apptype2 {
-                display: flex;
-                justify-content: space-around;
-            }
-            .prop {
-                padding-left: 3px;
-            }
-           .pubco {
-               padding-left: 33px;
-           }
-           .partnership {
-               padding-left: 30px;
-           }
-           table {
-               width: 1000px;
-               margin-left: 40px;
-           }
-           .union {
-               padding-left: 34px;
-           }
-           .sole {
-               padding-left: 30px;
-           }
-           nav {
-               font-size: 18px;
-           }
-           span {
-               font-size: small;
-           }
-           .blank input {
-               background-color: rgb(218, 221, 255);
-               font-size: 18px;
-           }
-           .eleven input[type=text] {
-            border: 1px solid #ccc;
-            background: linear-gradient(to left, #ccc 1px, transparent 0);
-            background-size: 23px 1px;
-            width: 255px; 
-            font: 18px monaco, monospace; 
-            letter-spacing: 13px;
-            text-indent: 5px;
-           }
-           .second {
-               display: flex;
-               justify-content: space-between;
-               padding-left: 20px;
-               padding-right: 20px;
-               padding-top: 10px;
-           }
-           .ten input[type=text] {
-            border: 1px solid #ccc;
-            background: linear-gradient(to left, #ccc 1px, transparent 0);
-            background-size: 23px 1px;
-            width: 232px; 
-            font: 18px monaco, monospace; 
-            letter-spacing: 13px;
-            text-indent: 5px;
-           }
-           .state {
-               display: flex;
-           }
-           .pincode {
-               padding-left: 10px;
-           }
-           .x {
-               display: flex;
-           }
-           .last {
-               display: flex;
-               justify-content: space-between;
-               padding-left: 30px;
-           }
-           .Proprietor {
-               padding-left: 120px;
-           }
-           .director {
-               padding-left: 120px;
-           }
-           .Partner {
-               padding-right: 100px;
-           }
-           .joint {
-               padding-left: 120px;
-           }
-           .y {
-               display: flex;
-               justify-content: space-between;
-               padding-right: 20px;
-           }
-           .pin {
-               padding-left: 35px;
-           }
-           .eight input[type=text] {
-            border: 1px solid #ccc;
-            background: linear-gradient(to left, #ccc 1px, transparent 0);
-            background-size: 23px 1px;
-            width: 185px; 
-            font: 18px monaco, monospace; 
-            letter-spacing: 13px;
-            text-indent: 5px;
-           }
-           .z {
-             display: flex;
-             justify-content: space-between;
-             padding-right: 120px;
-           }
-           .nine input[type=text] {
-            border: 1px solid #ccc;
-            background: linear-gradient(to left, #ccc 1px, transparent 0);
-            background-size: 23px 1px;
-            width: 210px; 
-            font: 18px monaco, monospace; 
-            letter-spacing: 13px;
-            text-indent: 5px;
-           }
-           .one input[type=text] {
-            border: 1px solid #ccc;
-            background: linear-gradient(to left, #ccc 1px, transparent 0);
-            background-size: 23px 1px;
-            width: 25px; 
-            font: 18px monaco, monospace; 
-            letter-spacing: 13px;
-            text-indent: 5px;
-            text-transform: uppercase;
-           }
-           .a {
+          .title {
+              padding-top: 20px;
+              width: 600px;
+              color: rgb(9, 9, 85);
+          }
+          h2 {
+              padding-left: 80px;
+          }
+          img {
+              width: 270px;
+              height: auto;
+          }
+          .sec-head {
+              background-color: rgb(9, 9, 85);
+              color: white;
+              line-height: 30px;
+              padding-left: 10px;
+          }
+          .subhead {
+              background-color: rgb(18, 18, 150);
+              color: white;
+              line-height: 25px;
+              padding-left: 20px;
+          }
+          .sections {
+              padding: 40px;
+          }
+          .content {
+              padding: 7px;
+          }
+          .section1 {
+              border: 1px solid rgb(9, 9, 85);
+          }
+          .section2 {
+              border: 1px solid rgb(9, 9, 85);
+          }
+          .apptype1 {
+              display: flex;
+              justify-content: space-around;
+          }
+          .apptype2 {
+              display: flex;
+              justify-content: space-around;
+          }
+          .prop {
+              padding-left: 3px;
+          }
+          table {
+              width: 1000px;
+              margin-left: 40px;
+          }
+          nav {
+              font-size: 18px;
+          }
+          span {
+              font-size: small;
+          }
+          .blank input {
+              background-color: rgb(218, 221, 255);
+              font-size: 18px;
+          }
+          .eleven input[type=text] {
+          border: 1px solid #ccc;
+          background: linear-gradient(to left, #ccc 1px, transparent 0);
+          background-size: 23px 1px;
+          width: 255px; 
+          font: 18px monaco, monospace; 
+          letter-spacing: 13px;
+          text-indent: 5px;
+          }
+          .second {
+              display: flex;
+              justify-content: space-between;
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-top: 10px;
+          }
+          .ten input[type=text] {
+          border: 1px solid #ccc;
+          background: linear-gradient(to left, #ccc 1px, transparent 0);
+          background-size: 23px 1px;
+          width: 232px; 
+          font: 18px monaco, monospace; 
+          letter-spacing: 13px;
+          text-indent: 5px;
+          }
+          .state {
+              display: flex;
+          }
+          .pincode {
+              padding-left: 10px;
+          }
+          .x {
+              display: flex;
+              width: 100%;
+          }
+          
+          .app-type {
             display: flex;
-           }
-           .s {
-             width: 400px;
-           }
-           .two input[type=text] {
-            border: 1px solid #ccc;
-            background: linear-gradient(to left, #ccc 1px, transparent 0);
-            background-size: 23px 1px;
-            width: 45px; 
-            font: 18px monaco, monospace; 
-            letter-spacing: 13px;
-            text-indent: 5px;
-           }
-           .t {
-             width: 100px;
-           }
-           .duration {
-             display: flex;
-             justify-content: space-around;
-             width: 200px;
-           }
-           @media (max-width: 1580px) {
-             .x {
-               flex-wrap: wrap;
-             }
-             .pin {
-               padding-left: 0px;
-             }
-           }
-           input.full-width {
-             width: 100%;
-           }
-        </style>
+            flex-wrap: wrap;
+            width: calc(100% - 150px);
+          }
+          
+          .last {
+              display: flex;
+              justify-content: space-between;
+              padding-left: 30px;
+          }
+          .Proprietor {
+              padding-left: 120px;
+          }
+          .director {
+              padding-left: 120px;
+          }
+          .Partner {
+              padding-right: 100px;
+          }
+          .joint {
+              padding-left: 120px;
+          }
+          .y {
+              display: flex;
+              justify-content: space-between;
+              padding-right: 20px;
+          }
+          .pin {
+              padding-left: 35px;
+          }
+          .eight input[type=text] {
+          border: 1px solid #ccc;
+          background: linear-gradient(to left, #ccc 1px, transparent 0);
+          background-size: 23px 1px;
+          width: 185px; 
+          font: 18px monaco, monospace; 
+          letter-spacing: 13px;
+          text-indent: 5px;
+          }
+          .z {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 120px;
+          }
+          .nine input[type=text] {
+          border: 1px solid #ccc;
+          background: linear-gradient(to left, #ccc 1px, transparent 0);
+          background-size: 23px 1px;
+          width: 210px; 
+          font: 18px monaco, monospace; 
+          letter-spacing: 13px;
+          text-indent: 5px;
+          }
+          .one input[type=text] {
+          border: 1px solid #ccc;
+          background: linear-gradient(to left, #ccc 1px, transparent 0);
+          background-size: 23px 1px;
+          width: 25px; 
+          font: 18px monaco, monospace; 
+          letter-spacing: 13px;
+          text-indent: 5px;
+          text-transform: uppercase;
+          }
+          .a {
+          display: flex;
+          }
+          .s {
+            width: 400px;
+          }
+          .two input[type=text] {
+          border: 1px solid #ccc;
+          background: linear-gradient(to left, #ccc 1px, transparent 0);
+          background-size: 23px 1px;
+          width: 45px; 
+          font: 18px monaco, monospace; 
+          letter-spacing: 13px;
+          text-indent: 5px;
+          }
+          .t {
+            width: 100px;
+          }
+          .duration {
+            display: flex;
+            justify-content: space-around;
+            width: 200px;
+          }
+          @media (max-width: 1580px) {
+            .pin {
+              padding-left: 0px;
+            }
+          }
+          @media (max-width: 1280px) {
+            .state {
+              flex-wrap: wrap;
+            }
+            .flex-state {
+              display: flex;
+              flex-direction: column;
+            }
+          }
+          @media (max-width: 1280px) {
+            .rmv-padding {
+              padding: 0px;
+            }
+          }
+          input.full-width {
+            width: 100%;
+          }
+          .section2 {
+            display: none;
+          }
+          @media (max-width: 920px) {
+            .second {
+              flex-direction: column;
+            }
+            .pincode {
+              padding: 0px;
+            }
+          }
+          @media (max-width: 850px) {
+            .x {
+              flex-direction: column;
+            }
+            .app-type {
+              margin-top: 10px;
+              width: 100%;
+            }
+          }
+          .app-type > div {
+            width: 200px;
+          }
+          .x > nav {
+            width: 150px;
+          }
+          input:focus {
+            background-color: white;
+          }
+          @media (max-width: 690px) {
+            .resp-full {
+              width: 100%;
+            }
+          }
+          @media (max-width: 1000px) {
+            #logo {
+              height: 150px;
+              width: auto;
+            }
+            .title {
+              width: 450px;
+            }
+            .title h2 {
+              padding: 0px;
+            }
+          }
+          @media (max-width: 750px) {
+            .title {
+              width: 300px;
+            }
+            #logo {
+              height: 120px;
+            }
+          }
+      </style>
     </head>
     <body>
         
      <div class="header">
-         <img src="data:image/jpeg;base64,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uaK3Ft1ZM7R/gZ4DPaG8fbddOquXheGT4u8R4ZE+V53WaCe08B7V6GPFjw11SIiPp2UmZs4izrZvs8lzU4S1wcyiad7uBlt5rOrpKy/JWxsRls2bCHWsRAw+D/mP877I3dJK2/DE2BobCA1rQGgAWAA4ABYZupjxT+rWmL5y/NJTMomNjpGhkbAGNa0WDQBYABfVEXA3EREBERAREQEREBERAREQEREBUKKhBUREBQqqFBEREBERAREQY5juRsNx65xCnZrPnt8B/wCJqwvENh1JLc4fUzR9AcGvA+B962ui0rlvXxKJrEtIybCph9VWxkdcJ/k9fem2Fb/0qtuOcMise0uPwW50V/zOT1V9nX0a8wnY7hdCQaoSTuH7R3g/hbYFZzh+HQYY3Rh8bI2Dma0D4LlIsrXtbzK0RECIiqkREQEREBERAREQEREBERAREQEREBUKKhBUREBCiIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZVEQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREH/9k=">
+         <img id="logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAHEhUSBxQTFRAVFxUQFRgXFxYaFxcaFxYXFhcdGBgaHSsgGxolJxUVIzEnJTUrLi4uHyAzODMsNyktLisBCgoKDg0OGhAQGi8lHyIvLy01KystLS8rLTItLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rNS0tLS0tMDctLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQYHBAUIAwL/xABKEAABAwIDAwUMBgcHBQEAAAABAAIDBBEFBhIHITETQVFhkQgUIjI1QnFzgaGxsiMzcoKSsyQ0U1RiwdEVFlKDosLSQ2N0k+EX/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QALhEBAAICAQMBBgQHAAAAAAAAAAECAxESBCExURMiMkFhcQUUIzNCgZGhwdHh/9oADAMBAAIRAxEAPwDeKIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICFFCgXS6iILdLqIgt0uoiC3S6iILdLqIgt0uoiC3S6iILdLqIgt0uoiC3S6iILdLqIgt0uoiC3S6iILdLqIgt0uoiC3VX5VCCoiIChVUKCIiICIiAix7OGcqTKUerEXXkI8CJti9/s5h1nctDZr2lYhmQluvkIDwiiJG7+N/Fx7B1LbHgtfx4UteKt7Y7nvDcCuK6oZrHmM8N3Y1YViG3GljuMPppZOguLWA/E+5aNRddekpHnuynLPybck26TH6qjjA65Xf8F96fbqb/pVHu59Etz2FoWnEV/y2P0V9pZ6HwnbFhlcQKvlIHH/G27fxNuFnOHYnBijdeHSMkb0tcD29C8frlYbiU+FPEmGyPieN92OI7eY+1ZX6SP4ZXjN6vYKLTeSdsmsiHNoA4ATsFh/mNHD7Q3dQW4YZWztDoCHMcNQINwQeBBXHfHak6ltFonw/aIiokREQEREBERAREQEREBERAREQFQoqEFREQFCqoUEREQFhW0nPseUIwyCz6yQExs5mjhrf0DoHOfQbd9mvH4stUslTV8GizW87nHc1o9JXlfGcUlxqeSorzqkkOo9XQB1Dgunp8POdz4Z5L8YfjE8RmxWV02IvL5Xm5cfgOgdS4yIvSiNOYRERAiIgIiICznZxtDlyo8RVpc+icfCbxMV/OZ1dIWDIq3pFo1K1bTE9nsWkqo61jZKRwfG8B7XNNwQd4IK+y0PsTzmcOlFBiDvoJTeEn/pyHeW/Zd7j6VvheVlxzS2nVW3KNiLr8cxmDAYjPijtEQIaTYne42G4LG//ANTwf94/0P8A6KsUtPiE7hmiLFKHaPhFa4Niqow4mw13bf2kWWVNIcLt3g7womsx5TtURFAIiICIiAiwrPO0WDJ72xTxSSSubrGmwba9uJXf5Uxn+8FJDVadHKtLtN728Ii1/YrTSYjl8kbjw7ZERVSKhRUIKiIgKFVQoIiLjYnWNw6GSaXxY2OkP3QT/JBobblmQ4nWCkgP0NN43QZXDf8AhBA9JctbL61dS6tkfLUG75HOlcf4nuLj8V8l7GOnCsQ47TudtvbPdmVDmShjqa90wkeXghrgG+C4gWGnqXEwXZnR0zBJnGq5DWXcnFqa1+m50lxPORbmWwNi/kmD7UvzlaBzbij8arKiapJJdK8Nv5rGuLWNHQAAFy0m972jk2njEROmzsx7GojCZsrzOeQ3UGPLXB44+C8c66PKWzVk8Iqs4Td6wE2YwkNe7pJLuHo4rNNgGJPqqOaGUkiCUaL8zZG6rDquHH2rAttuJPrcSdG8nk4WsYxvMCRdxt0m6Vtkm049/wAyYrEctMsm2Q4fi0RflmrcTzElsjCeu1iFqPHMHnwGd9PibdMrOPQQeDmnnaVl2xXFn4ficcTCeTqA+N7ea4aXtNukaSPasr7oihY1lLUAeHqfCetpbrF/Rp95V62tTJwtO4lE1i1dw1vk/KNVm2Qsw0AMbblJHeIy/D0nqWxxsmwzD7NxivIlPNeNm/0Hfb0rOspYC/AMLZDhOgVJi5Qud4pme25LiN9gbD0ALV9VsbxSte6SsqKd8jjqc5zpCST91UnNztPvahPDUeNmaNj8tFEZ8uy98sA1FthrI/gLdzvQtXr0dsvytX5TEkWKyxSU7rOjDXOJY7ntqAsDuWodrWEswfFJm0osyUNqQBwBkvrt1amuPtV8OWZtNZnf1VvTtuGIMeYyDGbOBDgRxBG8Fep9n+YRmWhind9Zbk5B0Pbud28V5XW2+58xcxzVFI8+C9oqGDraQx/uLOxT1VN036IxW1OmZ7b/ACVJ6yH51qDZ1koZzfKx8pi5JrXXDQb3Nudbf23+SpPWQ/OtL5HzrLkx8j6SOOQyhrTrLhaxvuss8HL2U8fO176593YbRNnj8msjkEolhkcYr2sWusXAEc4IB7Fn+wLGpa2CamqSXNgLTGSb2a+/g+gEHtWts559qs6iOOubFFEx2oBmq2ojTqc5x5gT2lbo2SZchwGj1U0sc75jyj5IzdnCwa09A+N0zTMYtX8lNcu3hl1fiEOHN1V8jI29LnAfFdJDn3CZnaI6yDVw8b+a1tmbZfiWO4hLqm1UxPKMllcXaQ7zAwc7d43WFrLoNoOzP+59OyoZUcs0yCJzTHotqBII8I3G63tWVMWOdRNu8rTa0fJ6KjeJADGQWneCDcH0FddW5ho6F7Y6ueJsj3CNrS4ai4mwFum6173P+KS1VNPBOS5sMjTHc30h7blo6rgn2rV+0lgo8VqzD4NpRICOIJY11x133qKYN3mkz4TN9Rt6PxbM9Dg504nURRu6HOF+xczDsRhxRnKYdIyRh3amkELQ1XsnrG0cldiU7eX0Gcx2Lid1zqkv43oBV2CVr4cQdFGTyUkL3ObzEsLS026d5HtUzhrwmazvSOc71MOX3QY/S6f1LvnWx9kzrYTTF3ANd8xWuO6E/W6b1LvnX6rc2f2HgFLTUZtUVDHt3cWx6jqPt4D0rSazbFWIRvVpltgZyw0mwq4L3021i972su9BvwWkNimRu+SMRxRv0bb97tI8YjcZD1DgO1bvXNlrWttRK9ZmY3IqFFQs1lREQFCqoUEWIbWavvTCqkt4uaIx95wWXrA9tvkqS37SL5lfH8cIt4ecERF7Diek9i/kmD7Uvzlecq762T1knzlehtjtbDDhULZpI2uvJuLmg+OeYleeK3fLJb9pJ85XJg/cu3yfDDdHc7fVVnrIvkcsC2ueVaj0s+ULN+59qo6eKr74ext5IranAX8B3C6wbaxI2XFKgxEOadFiCCPFHOEp+/Yt8EPlss8rUfrHflSLZPdEi9JTW/bO/LctbbLPK1H6x35Ui2V3Q36rS+vP5bkyfv1KfBLL5T/enCL4W4h01MOTIJBa/TwuOcEWXmqTEquIls01Q1zSWuBlkuCNxB8JZlsx2iOyneDEQ59G52sW3uiceJaOdp4kdO/nWe4vgWX89nlqWojjndxcx7WuJt50buJ61Wv6Npi0dvVM+/HaWj/7Wqv3if8A9sn/ACXGnqH1J1VD3Pdwu5xcbdFyVt5+zrAsF8PGsQ1NG/TrjBPsZ4S17nmtoq6qvltnJ0rI2RNFrXLS67rcd9+J3remStp92GdqzEd5dAsu2TVZo8WpTfc9z4T1h8bre8NWIrvsgX/tOi0/vEfx3q+SN0lWnmG8Nt/kqT1kPzrX+wrDIMTnqRiEbJA2JhAe0Gx1811sLbVE6bC5BC1zjykW5oJPjdAWjsuYtiWWnPfgzZWOeA114XOuAbjiFyYY5YZiG1u14ls/bXlShoaIVNBEyGZsjGeALaw+4LSBxI4+wroNgWJyQ1slMCeRkidKRzBzHNFx0XDjf2LFcexnF81ljMTFRLpN2MbC4DURa+kN3niO1bV2OZElwHXVYy3RNI3k2M85jCbnV0E2G7qVre5imtp3JHe24YDmjaFiGaqjksGe+OBz+ShjjOlz7mzS53G5481lx845MxPLtM2fH5w9j5Gx8mJZZCHFrnAnUNPmngunxLDqnIta0VALZIZNcTiPBka07iDwII49F1kmaM6Vu0hrKWgptzDy7hGS9xLWuFydwa0Bx9K01rjw1x9VfO9+WV9zs36OsP8AHEOxp/qtd7V/KlZ9pv5TFmnc+1U8c1REyImBwa58nDk3tuA034k34cRZYltToppcUrDHHIQXCxDHEH6NvOBZUr2zW+yZ+CG/8xeTZv8Axz8i0lsI8pj1Ev8AsW7swtJw2UAG/e5Frb/E6FpfYbSSw4mDNHI0chKLuY4DzOchY4p/Tuvb4oc7uhP1um9S751iuYMtvjw+jrotTonsMMlzfQ4Odpt0NNz7Vl+36mknqqcwMe4CF19LXO8/qCzfImDsxbA4qbEWkNfG9hBFiDqNjY8COK0jJwx1lXju0myPNrcxUgil0tqacNje0bg5o3Me0dBAsesdYWdrzDhza7IOIksjlc6F5jeGscWyxnoIFrEWIXpTC69mKRMmpr6JGh4uCCL8xB3ghYZ6RWdx4lek7ju5SoUVCwXVERAUKqhQRYhtZpO+8KqQ3i1okH3XA/1WXrjYlRtxGGSGXxZGOjP3gR/NWrOpiUT4ePFV9auldRSPiqBZ8b3ROHWxxafgvkvZcb8loPEBVUAnhzcUQQtB4hALcFUQZTss8rUfrHflSLZXdDfqtL68/luWpslYtHgVdT1NaHGOJxc4NALt7HN3Akc7gsv2q59pM4Qwx4W2YOjkMjuUa1otoLd1nHfvXNeszmrOuzWsxwlrZQgHiqi6WSBoHBVAL8EQFl2yWkNZi1KANzC+Y9QZG63vLViK233PmEGSaoq3jcxop2HrcQ9/uDO0rLNbjSVscbs3giIvJdYiIg+VVSx1jdNWxj29D2hw7CvzR0UVCNNFGyNvGzGtaOwBfdE2PlBTx0+rvdjW6jrdpaBqceJNuJ3DevqiICIiAiIgIiICoUVCCoiIChVUKCIiIPP23LLZwyrFXTj6Gp8bobK0WP4gAfSCtar1pmrAYsy00lNV8HDwTztcN7XD0FeWMawqXBJ5KevGmSM6T1jmI6iN69LpsvKvGfMOfLXU7crLGLtwmU99sElPK3kpmkXu0846xe65uZsqOw0cvhh5aif4THt3loPAO6uvtWNrIsqZslwA6HjlKd3jMPNfiW3+HArDqcWalvbYO8/Os+LR/iYVrMTHGzHFVs2TLeG5saZcDeIpDvc1vMf4ozw9ixrEcg19H9SxsrelhF/wmyzw/i/TXnjeeFvS3b/iZxWjx3Yui58uCVcJtJTzg+refeBZfaly1XVX1NNN95ukf6rLunqcMRubxr7wpxn0dUv1FG6ZwbCC5xNgALknqAWb4Vs1qJ9+JvbG3nDfCd28B712dViuHZLaWYM1stVa2q97fafzegLzsn4vjtb2fTR7S308R95aRinzbs6ykw1mSou+cWDXVrwRBEbHRfzndY/+LB3uLyS/iSXH0k3K5GJYhLikhlrnFzz2AcwA5guMuzpcF6bvlnd7efSPpH0hS1ontHhWMMhDYhdxIaAOJJ3AL1RkDL4yzQxQO+stykh6Xu3u7OC1VsSyYcQl7/xBv0EZIhB8943F32W+8+hb3WXVZNzxj5NsVdRsREXI1EREBERAREQEREBERAREQFQoqEFREQFCqoUEREQFhe0jIcWb4w+GzKyMERv5nDjof0t6Og+krNEVq2ms7hExt4+xPDpsJldDiLCyVhsWn4jpB6VxV6qzhk6kzbHpxJtpADolbYSMPUecdR3LRGa9meIZcJc1vfEA4SRA3t/Ezi33jrXo4uorftPaXPbHMeGHRSuhIdC5zXDgWkgj0Eb1kuHZ+xCiFpHtlb/3G3P4m2PbdYxw3HiNxRTn6XDnjWWkT94Ui018M+ZtRmHj00ZPVI4f7SvnUbT6l4/R4YmnpJc73blgqLhj8E6CJ37KP7/7X9tf1dviuaK3Ft1ZM7R/gZ4DPaG8fbddOquXheGT4u8R4ZE+V53WaCe08B7V6GPFjw11SIiPp2UmZs4izrZvs8lzU4S1wcyiad7uBlt5rOrpKy/JWxsRls2bCHWsRAw+D/mP877I3dJK2/DE2BobCA1rQGgAWAA4ABYZupjxT+rWmL5y/NJTMomNjpGhkbAGNa0WDQBYABfVEXA3EREBERAREQEREBERAREQEREBUKKhBUREBQqqFBEREBERAREQY5juRsNx65xCnZrPnt8B/wCJqwvENh1JLc4fUzR9AcGvA+B962ui0rlvXxKJrEtIybCph9VWxkdcJ/k9fem2Fb/0qtuOcMise0uPwW50V/zOT1V9nX0a8wnY7hdCQaoSTuH7R3g/hbYFZzh+HQYY3Rh8bI2Dma0D4LlIsrXtbzK0RECIiqkREQEREBERAREQEREBERAREQEREBUKKhBUREBCiIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZLKoglksqiCWSyqIJZVEQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREH/9k=">
          <div class="title">
            <h2>BUSINESS LOAN APPLICATION FORM</h2>
            <br>
@@ -231,21 +297,17 @@
         </div>
         <div class="content">
           <div class="x">
-             <nav><b> Applicant type: </b></nav>
-             <table>
-               <tr>
-             <td><div class="props"><input type="radio" name="atype" required>Proprietary Company </div> </td>
-             <td><div class="pubco"><input type="radio" name="atype" required >Public Company </div></td>
-             <td><div class="sole"><input type="radio" name="atype" required >Sole Trader </div></td>
-             <td><div class="trust"><input type="radio" name="atype" required >Trust </div></td>
-               </tr>
-               <tr>
-             <td><div class="incorp"><input type="radio" name="atype" required >Incorporated Association </div></td>
-             <td><div class="union"><input type="radio" name="atype" required >Union </div></td>
-             <td><div class="partnership"><input type="radio" name="atype" required >Partnership</div></td>
-             <td><div class="individual"><input type="radio" name="atype" required x>Individual(s) </div></td>
-              </tr>   
-             </table>
+            <nav><b> Applicant type: </b></nav>
+            <div class="app-type">
+              <div class="props"><input type="radio" name="atype" id="props" required><label for="props">Proprietary Company </label></div> 
+              <div class="pubco"><input type="radio" name="atype" id="pubco" required ><label for="pubco"> Public Company</label> </div>
+              <div class="sole"><input type="radio" name="atype" id="sole" required ><label for="sole"> Sole Trader </label></div>
+              <div class="trust"><input type="radio" name="atype" id="trust" required ><label for="trust"> Trust </label></div>
+              <div class="incorp"><input type="radio" name="atype" id="incorp" required ><label for="incorp"> Incorporated Association </label></div>
+              <div class="union"><input type="radio" name="atype" id="union" required ><label for="union"> Union </label></div>
+              <div class="partnership"><input type="radio" name="atype" id="partnership" required ><label for="partnership"> Partnership</label></div>
+              <div class="individual"><input type="radio" name="atype" id="individual" required x><label for="individual"> Individual(s) </label></div>
+            </div>
           </div>  
            <br>
            Full legal name of applicant: <span>If you are a company acting as a trustee, provide your name in this format, (e. g. ABC Pty Ltd as trustee for the XYZ Trust)</span>
@@ -280,7 +342,7 @@
            Registered office address or address of the trust <span>(PO Box is not acceptable)</span>
            <div class="blank"><input type="text" name="aname" id="name" size="155" class="full-width" ></div>
            <div class="state">
-             <div> State<div class="blank"><input type="text" name="aname" id="name" size="50" ></div>
+             <div> State<div class="blank"><input type="text" name="aname" id="name" class="resp-full" size="50" ></div>
            </div>
            <div class="pincode">
            Pincode<div class="blank"><input type="text" name="aname" id="name" size="30" ></div>
@@ -290,7 +352,7 @@
          Address of principal place of business/administration if different to the above <span>(PO Box is not acceptable)</span> 
         <div class="blank"><input type="text" class="full-width" name="aname" id="name" size="155" ></div>
         <div class="state">
-          <div> State<div class="blank"><input type="text" name="aname" id="name" size="50" ></div>
+          <div> State<div class="blank"><input type="text" name="aname" id="name" class="resp-full" size="50" ></div>
         </div>
         <div class="pincode">
           Pincode<div class="blank"><input type="text" name="aname" id="name" size="30" ></div>
@@ -299,30 +361,30 @@
         Postal address <span>(if different to the address of principal place of business)</span> 
         <div class="blank"><input type="text" class="full-width" name="aname" id="name" size="155" ></div>
         <div class="state">
-          <div> State<div class="blank"><input type="text" name="aname" id="name" size="50" ></div>
+          <div> State<div class="blank"><input type="text" name="aname" id="name" class="resp-full" size="50" ></div>
           </div>
           <div class="pincode">
           Pincode<div class="blank"><input type="text" name="aname" id="name" size="30" ></div>
           </div>
         </div>
-        <div class="state">
+        <div class="state flex-state">
             <div>
               Country of incorporation/establishment 
-              <div class="blank"><input type="text" name="aname" id="name" size="60" ></div>
+              <div class="blank"><input type="text" name="aname" class="resp-full" id="name" size="60" ></div>
             </div>
-            <div class="pincode">
+            <div class="pincode rmv-padding">
                 Specify type of trust <span>(e.g. discretionary, family or unit trust)</span>
-              <div class="blank"><input type="text" name="aname" id="name" size="60" ></div>
+              <div class="blank"><input type="text" name="aname" id="name" class="resp-full" size="60" ></div>
             </div>    
         </div>
-        <div class="state">
+        <div class="state flex-state">
             <div>
               Business super fund <span>(if applicable)</span>
-              <div class="blank"><input type="text" name="aname" id="name" size="60" ></div>
+              <div class="blank"><input type="text" name="aname" id="name" class="resp-full" size="60" ></div>
             </div>
-            <div class="pincode">
+            <div class="pincode rmv-padding">
                 Business phone number: 
-              <div class="blank"><input type="text" name="aname" id="name" size="60" ></div>
+              <div class="blank"><input type="text" name="aname" id="name" class="resp-full" size="60" ></div>
             </div>    
         </div>
        </div>
@@ -339,14 +401,14 @@
               <nav><b> Relationship to Applicant:</b></nav>
               <table>
                 <tr>
-                    <td><div class="props"></div><input type="radio" name="btype" required>Individual(s) </div> </td>
-                    <td><div class="director"><input type="radio" name="btype" required >Director </div></td>
-                    <td><div class="Proprietor"><input type="radio" name="btype" required >Proprietor </div></td>
-                    <td><div class="Partner"><input type="radio" name="btype" required >Partner </div></td>
+                    <td><div class="props"></div><input type="radio" name="btype" id="bind" required><label for="bind"> Individual(s) </div> </td>
+                    <td><div class="director"><input type="radio" name="btype" id="bdir" requbsoleired ><label for="bdir"> Director </div></td>
+                    <td><div class="Proprietor"><input type="radio" name="btype" id="bprop" required ><label for="bprop"> Proprietor </div></td>
+                    <td><div class="Partner"><input type="radio" name="btype" id="bpart" required ><label for="bpart"> Partner </div></td>
                         </tr>
                         <tr>
-                    <td><div class="incorp"><input type="radio" name="btype" required >Sole Trustee </div></td>
-                    <td><div class="joint"><input type="radio" name="btype" required >Joint Trustee</div></td>
+                    <td><div class="incorp"><input type="radio" name="btype" id="bsole" required ><label for="bsole"> Sole Trustee </div></td>
+                    <td><div class="joint"><input type="radio" name="btype" id="bjtrus" required ><label for="bjtrus"> Joint Trustee</div></td>
                     <td><div class="last"><part>Other - please specify</part><input type="text" size="30px"></div></td>
                        </tr>
               </table>
@@ -515,7 +577,7 @@
                       <tr>
                   <td><div class="incorp"><input type="radio" name="btype" required >Sole Trustee </div></td>
                   <td><div class="joint"><input type="radio" name="btype" required >Joint Trustee</div></td>
-                  <td><div class="last"><part>Other - please specify</part><input type="text" size="30px"></div></td>
+                  <td><div class="last"><part><input type="radio" name="btype" id="2ot"><label for="2ot"> Other</label> <Thidden> - please specify</Thidden></part><input type="text" name="btype" size="30px"></div></td>
                      </tr>
             </table>
           </div>
@@ -840,5 +902,8 @@
       </div>
     </div>
    </div>
+   <script>
+     
+   </script>
   </body>
 </html>
